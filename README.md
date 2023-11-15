@@ -5,9 +5,31 @@ This is a simple Webex Device Kiosk Web App which collects office feedback ratin
 
 ## Overview
 
-Go into detail about the implementation.   3-4 Sentences
-**HOW** the implementation works. You need not give end-to-end details but an overview.
+This 
+## Setup
 
+### Prerequisites & Dependencies: 
+
+- RoomOS/CE 11.0 or above Webex Board of Desk series device
+- Control Hub Admin or Device Web admin access to the device to set the Kiosk URL
+- Network connectivity so your Webex Device open access Web App hosted on the GitHub pages domain (*.github.io)
+
+### Installation Steps:
+
+1. Download the ``webview-websocket.js`` file and upload it to your Webex Room devices Macro editor via the web interface.
+2. Configure the macro by changing the initial values, there are comments explaining each one.
+    - There are a list of WebView demos apps already configured
+3. Save the macro changes and enable it using the toggle in the Macro on the editor.
+
+
+## Validation
+
+Validated Hardware:
+
+* Codec EQ + Room Navigator
+* Desk Pro + Room Navigator
+
+This macro should work on other Webex Devices but has not been validated at this time.
 
 
 ### Flow Diagram
