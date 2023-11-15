@@ -1,11 +1,15 @@
 # Office Feedback Web App
 
 This is a simple Webex Device Kiosk Web App which collects office feedback ratings from users passing by.
+![screenshot](https://github.com/wxsd-sales/office-feedback-web-app/assets/21026209/34dcf70f-4575-4868-ac18-a2de2d8833fe)
 
 
 ## Overview
 
-This 
+This is a simple Webex Device Kiosk collects user building/office feedback and sends the collected rating to a remote server via HTTP Post.
+
+If the user gives a low rating, the Web App will then display a QR code prompt which can link to additional support or user data collection.
+
 ## Setup
 
 ### Prerequisites & Dependencies: 
@@ -14,66 +18,33 @@ This
 - Control Hub Admin or Device Web admin access to the device to set the Kiosk URL
 - Network connectivity so your Webex Device open access Web App hosted on the GitHub pages domain (*.github.io)
 
-### Installation Steps:
+### Setup Steps:
 
-1. Download the ``webview-websocket.js`` file and upload it to your Webex Room devices Macro editor via the web interface.
-2. Configure the macro by changing the initial values, there are comments explaining each one.
-    - There are a list of WebView demos apps already configured
-3. Save the macro changes and enable it using the toggle in the Macro on the editor.
+1. Set the Kiosk URL to:
+```
+https://wxsd-sales.github.io/office-feedback-web-app/officeFeedbackWebApp.html
+```
+![image](https://github.com/wxsd-sales/office-feedback-web-app/assets/21026209/f592eef7-cc99-4ce8-bc05-fef14696cff4)
+
+3. Enable Kiosk Mode:
+
+![image](https://github.com/wxsd-sales/office-feedback-web-app/assets/21026209/0927df71-f130-4a73-8a02-8565e4cdcea5)
 
 
 ## Validation
 
 Validated Hardware:
 
-* Codec EQ + Room Navigator
-* Desk Pro + Room Navigator
-
+* Board Pro
+* Desk Pro
+  
 This macro should work on other Webex Devices but has not been validated at this time.
 
 
-### Flow Diagram
-
-<!-- *MANDATORY*  Insert Your Flow Diagram Here (if small PoC, alternative option is to include break down how it works here instead of diagram) -->
-![image/gif](insert img link here)
-
-
-
-## Setup
-
-### Prerequisites & Dependencies: 
-
-- Is this dependant on having another repo
-- Insert pre-requisites in bullets
-- Insert pre-requisite here  Also state any assumptions that you may have made about the user.
-- Limit nested bullets
-
-
-<!-- GETTING STARTED -->
-
-### Installation Steps:
-1.  Include step one here
-    ```sh
-    insert line of code here if applicable
-    ```
-2.  Insert step two here
-    Insert screenshot, if applicable
-    
-    
     
 ## Demo
 
-<!-- Insert link to the website below (if deployed). -->
-Check out our live demo, available [here](<insert link>)!
-
-<!-- Keep the following statement -->
 *For more demos & PoCs like this, check out our [Webex Labs site](https://collabtoolbox.cisco.com/webex-labs).
-
-
-<!-- Update your vidcast title, video screenshot, vidcast/youtube link & name -->
-[![Your Video Title ](assets/peer_support_main.PNG)](https://www.youtube.com/watch?v=SqZhiC8jHhU&t=10s, "<insert demo name here>")
-
-
 
 ## License
 <!-- MAKE SURE an MIT license is included in your Repository. If another license is needed, verify with management. This is for legal reasons.--> 
@@ -84,7 +55,7 @@ All contents are licensed under the MIT license. Please see [license](LICENSE) f
 
 ## Disclaimer
 <!-- Keep the following here -->  
- Everything included is for demo and Proof of Concept purposes only. Use of the site is solely at your own risk. This site may contain links to third party content, which we do not warrant, endorse, or assume liability for. These demos are for Cisco Webex usecases, but are not Official Cisco Webex Branded demos.
+Everything included is for demo and Proof of Concept purposes only. Use of the site is solely at your own risk. This site may contain links to third party content, which we do not warrant, endorse, or assume liability for. These demos are for Cisco Webex usecases, but are not Official Cisco Webex Branded demos.
 
 
 ## Questions
