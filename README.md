@@ -2,7 +2,7 @@
 
 This is a simple Webex Device Kiosk Web App which collects office feedback ratings from users passing by.
 
-![officeFeedbackScreenshot](https://github.com/wxsd-sales/office-feedback-web-app/assets/21026209/e78fe6c1-d804-4de9-9a6c-2b1e2fbd3ed4)
+![Office Feedback Web App](https://github.com/wxsd-sales/office-feedback-web-app/assets/21026209/a55b9343-019f-4210-8464-8c67627d8104)
 
 ## Overview
 
